@@ -1,0 +1,169 @@
+/* ==========================================
+
+    Template Name: OnTime
+    Temaplte URI: 
+    Description: An awesome portfolio html5 template.
+    Author: Gobinda Roy
+    Author URI: 
+    Support: gobinda718r@gmail.com
+    Version: 1.0
+
+=========================================== */
+/*=====================================
+Css Index
+========
+1.COMMON CSS
+2.HEADER
+3.SLIDER
+4.ITEAM
+5.WHY
+6.FOTTER
+========================================*/
+
+/*=====================
+1.Common Css
+======================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+/* REUSEABLE COMPONENETS*/
+.row {
+    max-width: 768px;
+    margin: auto;
+}
+
+/*=====================
+2.HEADER
+======================*/
+#hero {
+    border-bottom: .5px solid rgba(0, 0, 0, 0.74);
+}
+#hero a img {
+    margin: 10px 0;
+    margin-right: 10px;
+}
+#hero i { 
+    margin-left: 0px;
+    font-size: 150%;
+    color:rgba(0, 0, 0, 0.74);
+    font-weight: 300;
+    
+    
+}
+/*=====================
+3.SLIDER
+======================*/
+.slider-area {
+    background-color: #FF6C2C;
+    text-align: center;
+}
+
+/*=====================
+4.ITEAM
+======================*/
+.iteam {
+    background-color: #FF6C2C;
+    color: #fff;
+    padding: 0 0 15px 0;
+}
+.iteam h2 {
+    font-size: 200%;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.grid-iteam-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    
+}
+.grid-iteam-iteams img {
+    border-radius: 15px;
+    width: 90%;
+}
+.grid-iteam-iteams a p {
+    text-align: center;
+    color: #fff;
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+/*=====================
+5.WHY
+======================*/
+.why {
+    padding: 20px 0;
+}
+.why h3 {
+    font-size: 220%
+}
+.why p {
+    font-size: 150%;
+    margin: 20px 0;
+}
+.grid-why-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.grid-why-iteams img{
+    width: 10%;
+    display: block;
+}
+.grid-why-iteams .content {
+	float: left;
+	margin-top: -30px;
+	margin-left: 50px;
+}
+.grid-why-iteams .content h4 {
+    font-size: 150%;
+}
+.grid-why-iteams .content span {
+    font-size: 120%;
+}
+/*=====================
+6.FOTTER
+======================*/
+.fotter {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+.grid-fotter-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.grid-fotter-iteams {
+    padding: 20px 30px;
+}
+.grid-fotter-iteams img {
+    width: 20%;
+}
+.grid-fotter-iteams h5 {
+    font-size: 100%;
+    color: rgba(0, 0, 0, 0.8);
+}
+.grid-fotter-iteams b {
+    font-size: 100%;
+    color: rgba(0, 0, 0, 0.6);
+}
