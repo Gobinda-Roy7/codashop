@@ -13,11 +13,12 @@
 Css Index
 ========
 1.COMMON CSS
-2.HEADER
+2.HERO
 3.SLIDER
 4.ITEAM
 5.WHY
 6.FOTTER
+7.BUY.HTML SECTION
 ========================================*/
 
 /*=====================
@@ -50,6 +51,10 @@ ul li {
 /* REUSEABLE COMPONENETS*/
 .row {
     max-width: 768px;
+    margin: auto;
+}
+.rows {
+    max-width: 1270px;
     margin: auto;
 }
 
@@ -166,4 +171,226 @@ ul li {
 .grid-fotter-iteams b {
     font-size: 100%;
     color: rgba(0, 0, 0, 0.6);
+}
+/*=====================
+7.BUY.HTML SECTION
+=======================
+Css Index
+========
+7.1.BUY SECTION
+7.2.BUY-ONLINE
+======================*/
+
+/*=====================
+7.1.BUY SECTION
+======================*/
+.buy {
+    background-color: #FF6C2C;
+    color: #fff;
+    padding: 25px 0;
+}
+.grid-buy-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.grid-buy-iteams .free-fire {
+    width: 100%;
+}
+.grid-buy-iteams h3{
+    font-size: 200%;
+}
+.grid-buy-iteams p {
+    font-size: 130%;
+}
+.grid-buy-iteams img {
+    width: 20%;
+    margin-top: 10px;
+}
+.grid-buy-iteams:nth-child(2) {
+    grid-column: 2/4;
+}
+.grid-buy-iteams .id {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    border: .5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+.grid-buy-iteams .id span {
+	z-index: 99;
+	color: #fff;
+	font-size: 241%;
+	display: inline-block;
+	padding: 1px 13px;
+	background-color: #FF6C2C;
+	border: 5px solid #fff;
+	border-radius: 47%;
+	margin-top: -23px;
+}
+.grid-buy-iteams .id h3 {
+    margin-left: 60px;
+    margin-top: -35px;
+}
+.grid-buy-iteams .id input {
+    margin-top: 15px;
+    width: 30%;
+    padding: 15px 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.grid-buy-iteams .id b {
+	background-color: #FF6C2C;
+	border-radius: 100%;
+	padding: 5px 10px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 138%;
+}
+.grid-buy-iteams .id p {
+    font-weight: 300;
+    margin-top: 10px;
+    font: 200%;
+}
+.grid-buy-iteams .recharge {
+    margin-top: 20px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    border: .5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+.grid-buy-iteams .recharge span {
+	z-index: 99;
+	color: #fff;
+	font-size: 241%;
+	display: inline-block;
+	padding: 1px 13px;
+	background-color: #FF6C2C;
+	border: 5px solid #fff;
+	border-radius: 47%;
+	margin-top: -23px;
+}
+.grid-buy-iteams .recharge h3 {
+    margin-left: 60px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+.grid-buy-iteams .recharge button {
+	width: 32%;
+	font-size: 170%;
+	padding: 16px 0px;
+	color: rgba(0,0,0,0.8);
+	margin: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    border-radius: 5px;
+}
+.grid-buy-iteams .recharge .portfolio-filter .active {
+    background: #FF6C2C;
+    color: #fff;
+}
+.grid-buy-iteams .payment {
+    margin-top: 20px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    border: .5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px 15px 15px;
+}
+.grid-buy-iteams .payment span {
+	z-index: 99;
+	color: #fff;
+	font-size: 241%;
+	display: inline-block;
+	padding: 1px 13px;
+	background-color: #FF6C2C;
+	border: 5px solid #fff;
+	border-radius: 47%;
+	margin-top: -23px;
+}
+.grid-buy-iteams .payment h3 {
+    margin-left: 60px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+.grid-buy-iteams .payment .price {
+	border: .5px solid rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 0 50px 0 0;
+}
+.grid-buy-iteams .payment img {
+    width: 10%;
+    margin-left: 20px;
+
+}
+.grid-buy-iteams .payment .mix {
+	display: inline-block;
+	font-size: 120%;
+	float: right;
+    margin-left: 10px;
+	margin-top: 5px;
+    
+}
+.grid-buy-iteams .mails {
+    margin-top: 20px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    border: .5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px 30px 15px;
+}
+.grid-buy-iteams .mails span {
+	z-index: 99;
+	color: #fff;
+	font-size: 241%;
+	display: inline-block;
+	padding: 1px 13px;
+	background-color: #FF6C2C;
+	border: 5px solid #fff;
+	border-radius: 47%;
+	margin-top: -23px;
+}
+.grid-buy-iteams .mails h3 {
+    margin-left: 60px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+.grid-buy-iteams .mails p {
+	font-size: 150%;
+	margin-top: 20px;
+    margin-left: 5px;
+	display: inline-block;
+}
+.grid-buy-iteams .mails input[type="email"] {
+	width: 100%;
+	padding: 10px 15px;
+	border: 2px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+.grid-buy-iteams .mails input[type="submit"] {
+	width: 20%;
+    font-size: 180%;
+    color: #fff;
+	padding: 10px 15px;
+	border: 2px solid rgba(0,0,0,0.3);
+    background-color: #3A5E92;
+	border-radius: 5px;
+    float: right;
+    margin-top: 10px;
+}
+/*=====================
+7.1.BUY ONLINE
+======================*/
+.buy-online {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    padding: 20px 0;
+}
+.buy-online h3 {
+    font-size: 200%;  
+}
+.buy-online p {
+    font-size: 150%;
+    font-weight: 300;
 }

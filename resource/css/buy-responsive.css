@@ -1,0 +1,74 @@
+@media screen and (max-width: 1280px) {
+    .rows {
+        max-width: 980px;
+    }
+}
+@media screen and (max-width: 980px) {
+    body {
+        font-size: 8px;
+    }
+    .rows{
+        max-width: 768px;
+    }
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 7px;
+    }
+    .rows {
+        max-width: 480px;
+    }
+    .grid-buy-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+}
+    .grid-buy-iteams:nth-child(2) {
+    grid-column: 1/1;
+    display: ;
+}
+    .grid-buy-iteams .id {
+        margin-top: 10px;
+    }
+    .grid-buy-iteams .id h3,
+    .grid-buy-iteams .recharge h3,
+    .grid-buy-iteams .payment h3,
+    .grid-buy-iteams .mails h3 {
+        margin-top: -25px;
+    }
+    .grid-fotter-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 6px;
+    }
+    .rows {
+        max-width: 360px;
+    }
+    .grid-fotter-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 5px;
+    }
+    .rows {
+        max-width: 300px;
+    }
+    .grid-fotter-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    @media screen and (max-width: 300px) {
+    body {
+        font-size: 5px;
+    }
+    .rows {
+        max-width: 250px;
+    }
+    .grid-fotter-container {
+        grid-template-columns: 1fr;
+    }
+}
